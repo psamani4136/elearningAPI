@@ -1,0 +1,87 @@
+.container{
+    /* background-color: aqua; */
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.main_header{
+    display: flex;
+    height: auto;
+    background: linear-gradient(rgba(53, 53, 53, 0.7)), url('../static/students_connecting_rubbers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.main_logo{
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;  */
+    
+    /* background: url('../static/coat-of-arm.svg');
+    height: 8rem;
+    width: 8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backgrou */
+}
+
+.main_text{
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+   
+}
+
+.main_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+}
+
+.main_menu__home a{
+    font-size: 1.2rem;
+}
+
+.main_menu a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.main_auth{
+    display: flex;
+}
+
+.main_signin{
+    padding-right: 1rem;
+}
+
+.main_curriculum_menu{
+    display: flex;
+}
+
+.main_curriculum_1{
+    padding-right: 1rem
+}
+
+.main_curriculum_1 a:hover{
+    text-decoration: none;
+    color: white;
+}

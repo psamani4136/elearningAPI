@@ -1,0 +1,9 @@
+.adminLayoutContainer{
+    display: flex;
+    height: 100vh;
+    
+    }
+
+    .adminLayoutContent{
+        flex: 5;
+    }

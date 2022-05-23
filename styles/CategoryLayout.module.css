@@ -1,0 +1,10 @@
+.categoryLayoutContainer{
+    display: flex;
+    height: auto;
+    margin: 0;
+}
+
+.categoryLayoutContent{
+    flex: 8;
+    
+}

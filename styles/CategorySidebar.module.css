@@ -1,0 +1,37 @@
+.categorySidebar{
+    background: rgba(160, 159, 159, 0.3);
+    /* color: white; */
+    flex: 1.5;
+}
+
+.sidebarContainer{
+   display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sidebarCategory{
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.sidebarCategoryIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebarCategoryText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subSidebarContainer{
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    font-weight: lighter;
+    cursor: pointer;
+}

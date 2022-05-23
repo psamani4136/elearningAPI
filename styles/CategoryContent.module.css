@@ -1,0 +1,108 @@
+.categoryContent{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.categoryContainer{
+    display: flex;
+}
+
+.sidebarContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sidebarCategory{
+    /* display: flex; */
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 0.2rem;
+}
+
+.syllabusheadingContainer{
+    display: flex;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+    /* padding-top: 1rem;*/
+    padding-bottom: 1rem; 
+    background-color: rgb(36, 36, 65);
+}
+.syllabusheading{
+    flex: 5;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    
+}
+
+.syllabusheadingImage{
+    flex: 3;
+    color: white;
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.syllabusheading p{
+    color: white;
+    padding-top: 1.5rem;
+    font-size: 18px;
+    
+}
+.syllabusTitle{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.syllabusYears{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: rgba(33, 149, 243, 0.2);
+    border-left: 5px solid #2196F3;
+    border-radius: 0.4rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.2rem;
+    padding-left: 1rem;
+    margin-right: .5rem;
+
+}
+
+.syllabusButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.syllabusSubstrands{
+    
+    align-items: center;
+    justify-content: center;
+}
+.syllabusContents{
+    /* display: flex; */
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.syllabusContents_1{
+    flex: 4;
+    
+   
+}
+
+.syllabusContents_2{
+    flex: 1;
+    padding-top: 1rem;
+    padding-left: 10px;
+    height: auto;
+    margin-bottom: 1rem;
+    border-left: 2px solid bisque;
+}
